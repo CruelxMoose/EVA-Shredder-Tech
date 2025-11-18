@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <DamageDef ParentName="Bullet">
+    <defName>Bullet_EVA_Shredder</defName>
+    <label>EVA shredded</label>
+    <additionalHediffs>
+      <li>
+        <hediff>EVA_Shredder</hediff>
+        <severityPerDamageDealt>0.05</severityPerDamageDealt>
+      </li>
+	</additionalHediffs>
+    <impactSoundType>Bullet</impactSoundType>
+  </DamageDef>
+
+</Defs>
